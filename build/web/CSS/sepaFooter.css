@@ -1,0 +1,80 @@
+
+
+/*footer*/
+.footer-bottom{
+    background: rgba(0 , 0, 0, 0.7);
+    padding: 15px 0 5px;
+}
+.footer-info2{
+    color: white;
+    font-size: 12px;
+}
+
+
+@media only screen and (min-width:1000px) {
+    body{
+        width: 100%;
+    }
+    .logoCustom1{
+        float: right;
+    }
+    .navbar-toogle{
+        display: none;
+    }
+    .icon-menu{
+        padding-top: 10px;
+    }
+}
+@media only screen and (min-width:770px){
+    .icon-menu{
+        display: none;
+    }
+    
+    .logoCustom{
+        display: none;
+    }
+}
+@media (max-width: 768px){
+    .navbar-nav{
+        float: left;
+    }
+    .sact-top{
+        width: 100%;
+        }
+    .navbar-nav-first{
+        float: left;
+        padding: 0 10px 0px 10px;
+        width: 100%;
+    }
+    .navbar-nav-first>li>a{
+        font-size: 15px;
+        border-bottom: 1px solid grey;
+    }
+    .sact-top> li>.sac-nav{
+        font-size: 15px;
+    }
+    .logoCustom{
+        display: none;
+    }
+    .smoothScroll1{
+        border-left: 3px solid #811c81;
+        border-bottom: 3px solid grey;
+        transition: .1s all ease-in-out;
+    }
+    .smoothScroll1:hover{
+        color: red;
+    }
+    
+    @media (min-width: 750px){
+        .logoCustom{
+            display: none;
+        }
+    }
+
+.iet-social-icons{
+float: right;
+
+}
+
+}
+

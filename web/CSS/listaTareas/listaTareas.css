@@ -1,0 +1,73 @@
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : jun 9, 2020, 9:21:21 p.m.
+    Author     : JUAN PABLO
+*/
+
+
+/*NAVBAR*/
+
+
+a {
+    color: white;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.nav-item{
+    color: white;
+}
+
+h1, h3,p{
+    text-align: center;
+    color: black;
+    
+}
+span{
+    margin-left: 210px;
+}
+.btn btn-danger{
+    margin-left: 210px;
+}
+
+#cabecera{
+    margin-top: 60px;
+}
+
+#tarjeta {
+    margin-bottom: 20px;
+    
+}
+#botonAgregar{
+    width: 100%;
+}
+
+#formulario{
+    margin-left: 210px;
+}
+
+.card{
+    margin-top: 40px;
+    color: black;
+}
+
+
+.app{
+   background: #00B4DB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+body{
+    background: #00B4DB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

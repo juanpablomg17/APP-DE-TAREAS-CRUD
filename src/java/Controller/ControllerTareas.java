@@ -1,7 +1,8 @@
 
 package Controller;
 
-import Modelo.Modelo;
+import Modelo.Tareas;
+import Modelo.TareasDAO;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.SQLException;
@@ -22,7 +23,7 @@ import java.util.Date;
 
 public class ControllerTareas extends HttpServlet {
 
-    private Modelo modeloTareas;
+    private TareasDAO modeloTareas;
     
     // pool de conección
         
@@ -35,7 +36,7 @@ public class ControllerTareas extends HttpServlet {
      public void init() throws ServletException{
 
          try {
-             modeloTareas = new Modelo(miPool);
+             modeloTareas = new TareasDAO(miPool);
              
          } catch (Exception e) {
              
@@ -82,7 +83,8 @@ public class ControllerTareas extends HttpServlet {
             
             switch (elComando){
                 case "listar":
-                    obtenerTareas(request,response);
+                    
+                   obtenerTareas(request,response);
                     
                     
                     break;

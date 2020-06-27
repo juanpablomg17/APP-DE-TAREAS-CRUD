@@ -5,7 +5,7 @@
  */
 package Controller;
 
-import Modelo.Modelo;
+import Modelo.TareasDAO;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.*;
@@ -23,7 +23,7 @@ import javax.sql.*;
  */
 public class ControllerIMG extends HttpServlet {
     
-    private Modelo modelo;
+    private TareasDAO modelo;
      
  
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
