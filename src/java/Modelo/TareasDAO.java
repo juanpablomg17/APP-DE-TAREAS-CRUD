@@ -259,5 +259,57 @@ public class TareasDAO {
         
 
     }
+
+    public List<Tareas> BuscarTarea(int id) {
+        Connection miConexion = null;
+        Statement miStatement = null;
+        ResultSet miResultSet = null;
+        
+        
+  
+        Tareas t = new Tareas();
+         List<Tareas> listaTareas = new ArrayList<>();
+        
+        
+        try {
+            String busqueda = "SELECT * FROM tareas WHERE ID="+id;
+            
+            miConexion = origenDatos.getConnection();
+            miStatement = miConexion.createStatement();
+            
+            miResultSet = miStatement.executeQuery(busqueda);
+            
+            int i=0;
+            while (miResultSet.next()){
+                i=i+1;
+                int codigo = miResultSet.getInt(1);
+                String nombre = miResultSet.getString(2);
+                String descripcion = miResultSet.getString(3);
+                Date fecha = miResultSet.getDate(4);
+                
+                t.setId(codigo);
+                t.setNombre(nombre);
+                t.setDescripcion(descripcion);
+                t.setFecha(fecha);
+                
+                listaTareas.add(t);
+                
+            }
+            
+            if (i==1){
+                return listaTareas;
+            }
+            else{
+                return listaTareas=null;
+            }
+            
+           
+            
+        } catch (Exception e) {
+            return listaTareas=null;
+        }
+        
+        
+    }
     
 }

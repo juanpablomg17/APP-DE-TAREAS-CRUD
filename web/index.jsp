@@ -259,7 +259,7 @@
              <div class="container">
              <div class="row">
               <div style="padding-top: 25px;" class="col-md-6">
-                 <input type="text" class="form-control" name="name" id="cf-name" placeholder="Nombre">
+                 <input type="text" class="form-control" name="busca_id" id="cf-name" placeholder="Nombre">
               </div>
               <div style="padding-top: 25px;" class="col-md-6">
                 <input type="email" class="form-control" name="email" id="cf-email"

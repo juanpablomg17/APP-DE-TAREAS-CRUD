@@ -120,6 +120,13 @@ public class ControllerTareas extends HttpServlet {
                     eliminarTareas(request,response);
                     break;
                     
+                case "buscar":
+                   
+                    buscarTarea(request,response);
+                    
+                    
+                    break;
+                    
                     
             }} catch (SQLException ex) {
             Logger.getLogger(ControllerTareas.class.getName()).log(Level.SEVERE, null, ex);
@@ -270,6 +277,32 @@ public class ControllerTareas extends HttpServlet {
        
        obtenerTareas(request, response);
        
+    }
+
+    private void buscarTarea(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        
+        String numeroCadena = request.getParameter("busca_id");
+        
+        int id = 0;
+        id = Integer.parseInt(numeroCadena);
+        
+        List<Tareas> tarea = modeloTareas.BuscarTarea(id);
+        
+        
+             
+             
+             
+             
+             
+             
+        request.setAttribute("TAREA",tarea);
+        
+        RequestDispatcher dispatcher = request.getRequestDispatcher("Busqueda.jsp");
+        
+        dispatcher.forward(request, response);
+        
+        
+        
     }
 
   

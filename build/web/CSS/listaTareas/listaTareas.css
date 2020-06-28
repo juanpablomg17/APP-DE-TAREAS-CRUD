@@ -13,6 +13,159 @@ and open the template in the editor.
 /*NAVBAR*/
 
 
+
+
+
+
+
+
+
+h1{
+    color: white;
+}
+p{
+    color: white;
+
+
+}
+/*NAVBAR*/
+
+header{
+   
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+a:hover {
+    color: rgba(10,128,203,0.5);
+    text-decoration: underline;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+.dropdown-item2 {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+.dropdown-menu {
+min-width: 0px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+.nav li a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #C7C7C7;
+    padding-right: 7px;
+    padding-left: 7px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 19px;
+    padding-bottom: 17px;
+}
+.dropdown-menu{
+    background: #1D2129;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+}
+.dropdown-menu>a:focus{
+ 
+        text-decoration: none;
+        background-color: #24292e;
+    
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #C7C7C7;
+    text-decoration: none;
+    background-color: #24292e;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color:  #24292e;
+}
+
+.nav > li > a:focus {
+    text-decoration: none;
+    background-color: #24292e;
+}
+
+.nav >li>a:hover {
+    color: rgba(10,128,203,0.5);
+    border-style: none;
+    background: transparent;
+}
+
+li{
+
+    padding-left: 15px;
+}
+#search{
+
+    margin-right: 400px;
+}
+
+.navbar{
+    background:#1D2023;
+    
+}
+
+a{
+    color: white;
+}
+#botonSucces1 {
+    color: #fff;
+    background-color: rgba(10,128,203,0.5);
+    border-color: rgba(10,128,203,0.5);
+
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+
+
+
+.form-control {
+    border-radius: -2px;
+    width: 70%;
+    border-color: white;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+/* CONTENIDO*/
+
 a {
     color: white;
 }
@@ -32,6 +185,10 @@ h1, h3,p{
 }
 span{
     margin-left: 210px;
+}
+
+#span2{
+    
 }
 .btn btn-danger{
     margin-left: 210px;
@@ -59,15 +216,19 @@ span{
 }
 
 
-.app{
-   background: #00B4DB;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
 
 body{
-    background: #00B4DB;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background: #6190E8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 }
+
+
+
+
+
+
+
+

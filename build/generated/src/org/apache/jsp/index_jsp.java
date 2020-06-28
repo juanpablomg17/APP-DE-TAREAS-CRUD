@@ -298,7 +298,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("             <div class=\"container\">\n");
       out.write("             <div class=\"row\">\n");
       out.write("              <div style=\"padding-top: 25px;\" class=\"col-md-6\">\n");
-      out.write("                 <input type=\"text\" class=\"form-control\" name=\"name\" id=\"cf-name\" placeholder=\"Nombre\">\n");
+      out.write("                 <input type=\"text\" class=\"form-control\" name=\"busca_id\" id=\"cf-name\" placeholder=\"Nombre\">\n");
       out.write("              </div>\n");
       out.write("              <div style=\"padding-top: 25px;\" class=\"col-md-6\">\n");
       out.write("                <input type=\"email\" class=\"form-control\" name=\"email\" id=\"cf-email\"\n");

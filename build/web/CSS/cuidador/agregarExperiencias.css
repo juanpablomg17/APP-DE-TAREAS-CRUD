@@ -1,24 +1,4 @@
 
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : jun 9, 2020, 9:21:21 p.m.
-    Author     : JUAN PABLO
-*/
-
-
-/*NAVBAR*/
-
-
-
-
-
-
-
-
 
 h1{
     color: white;
@@ -153,9 +133,19 @@ a{
 
 .form-control {
     border-radius: -2px;
-    width: 70%;
-    border-color: white;
+    width: 100%;
+    border-color: #0083B0;
     margin-bottom: 0px;
+    
+}
+
+#formulario-buscar{
+    border-radius: -2px;
+    width: 70%;
+    border-color: #0083B0;
+    margin-bottom: 0px;
+    
+    
 }
 
 
@@ -164,19 +154,12 @@ a{
 
 
 
-/* CONTENIDO*/
 
-a {
-    color: white;
-}
 
-.navbar-brand{
-    color: white;
-}
 
-.nav-item{
-    color: white;
-}
+
+
+
 
 h1, h3,p{
     text-align: center;
@@ -185,10 +168,6 @@ h1, h3,p{
 }
 span{
     margin-left: 210px;
-}
-
-#span2{
-    
 }
 .btn btn-danger{
     margin-left: 210px;
@@ -212,23 +191,19 @@ span{
 
 .card{
     margin-top: 40px;
-    color: black;
 }
 
 
-
-body{
-   background: #6190E8;  /* fallback for old browsers */
+.app{
+  background: #6190E8;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-
 }
 
+body{
+    background: #6190E8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-
-
-
-
-
-
+}
