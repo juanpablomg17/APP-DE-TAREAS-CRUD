@@ -36,7 +36,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="nav navbar-nav navbar-nav-first">
                 <li class="nav-item active">
-                    <a class="nav-link" href="Inicio.html"
+                    <a class="nav-link" href="#"
                         style="color: white; padding-left: 25px; padding-right: 25px;">Home
                         <span class="sr-only">(current)</span> </a>
 
@@ -193,17 +193,17 @@
             <div class="row">
                 <div style="margin-top: 25px;" class="col-md-6">
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-12" style="margin-bottom: 54px;">
                             <div class="about-info">
                                 <div id="secciontitulo">
                                     <div class="imagenpaciente">
 
                                         <div class="container-equipo">
                                             <div id="titulo">
-                                                <h1>Bienvenido  Cuidador de Roberto Guerrero</h1>
+                                                <h1>Bienvenido Cuidador ${nombre}</h1>
                                             </div>
                                             <div class="pic">
-                                                <img src="../IMAGENES/roberto.PNG" alt="">
+                                                <img src="" alt="IMAGEN DEL PACIENTE">
                                             </div>
                                             <div class="equipo-content">
                                                 <h3 class="tituloequipo">#34958</h3>
@@ -224,128 +224,9 @@
 
 
         </div>
-        <div id="asistenciaencasa" style="margin-bottom: 10px;" class="container-fluid">
-            <div style=" background: white;border-radius: 24px;" class="tituloseccion">
-                <h1 style="padding-top">ASISTENCIA EN CASA</h1>
-                <section id="terapia">
-                    <div class="row">
-                        <div class="col-md-4">
-
-                            <div class="card">
-                                <div class="card-header">
-                                    <h1>Lista de Asistencias</h1>
-                                </div>
-
-                                <form class="card-body">
-
-                                    <div class="boton">
-                                        <button type="button" class="btn btn-primary">Asistencia de Marzo</button>
-                                    </div>
-                                    <div class="boton">
-                                        <button type="button" class="btn btn-primary">Asistencia de Abril</button>
-                                    </div>
-                                    <div class="boton">
-                                        <button type="button" class="btn btn-primary">Asistencia de Mayo</button>
-                                    </div>
-                                    <div class="boton">
-                                        <button type="button" class="btn btn-primary">Asistencia de Junio</button>
-                                    </div>
-                                    <div class="boton">
-                                        <button type="button" class="btn btn-primary">Asistencia de Julio</button>
-                                    </div>
-
-                                    <div>
-                                        <button style="width: 100%; margin-top: 2px;" type="button"
-                                            class="btn btn-danger">Agregar Asistencia</button>
-                                    </div>
-
-
-                                </form>
-
-
-                            </div>
-
-
-
-
-
-                        </div>
-
-                        <div class="col-md-8" style="margin-left: -19px;">
-                            <div class="card">
-                                <div class="card-header" style="color: black;
-                                    font-weight: 600;"> Asistencia de Marzo</div>
-                                <form class="body">
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <input style="width: 109%;" class="form-control" type="text"
-                                                name="nombre-terapia" placeholder="Nombre de la Terapia">
-                                        </div>
-                                        <div class="col-md-4">
-                                            <input style="width: 109%;" class="form-control" type="date">
-                                        </div>
-                                        <div class="col-md-4">
-                                            <select style="width: 100%;" class="form-control" name="tipo_actividad"
-                                                id="tipoA">
-                                                <option value="tipoA">Actividad1</option>
-                                                <option value="tipoA">Actividad2</option>
-                                                <option value="tipoA">Actividad3</option>
-                                                <option value="tipoA">Actividad4</option>
-                                                <option value="tipoA">Actividad5</option>
-                                            </select>
-                                        </div>
-
-                                        <div class="row">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div>
-                                                <label style="color: black;
-                                              font-weight: 600; padding-left: 13px;">Hora de inicio: </label>
-                                               <input
-                                                    class="form-control" type="time" name="hora-inicio" value="11:45:00"
-                                                    max="22:30:00" min="10:00:00 " style="width: 418px;">
-
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div>
-                                                <label style="color: black;
-                                                font-weight: 600; padding-left: 13px;">Hora de finalización:<input
-                                                        class="form-control" type="time" name="hora-fin"
-                                                        value="11:45:00" max="22:30:00" min="10:00:00 " style="width: 404px; margin-top: 8px;"></label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <textarea class="form-control" name="descripcion-actividad" cols="30" rows="10"
-                                            placeholder="Descripción breve de la actividad" style="    width: 100%;"></textarea>
-
-                                    </div>
-                                    
-
-
-
-                                </form>
-
-
-
-                                </form>
-
-                            </div>
-                        </div>
-
-
-
-
-                    </div>
-
-
-
-                </section>
-
-
-            </div>
-        </div>
+      
+                                            
+                                            
 
         <div id="reporte-mostrar" class="container-fluid">   
             <div id="container">
@@ -403,23 +284,23 @@
   
   
                 <div class="row-footer">
-                  <img style="width: 36px;" src="../IMAGENES/icon/facebook.png">
+                    <img style="width: 36px;" src="IMAGES/icons/facebook.png">
                   <a href="#" id="footerlabel"><B>Siguenos en Facebook</B></a>
                 </div>
                 <div class="row-footer">
-                  <img style="width: 36px;" src="../IMAGENES/icon/twitter.png">
+                    <img style="width: 36px;" src="IMAGES/icons/twitter.png">
                   <a href="#" id="footerlabel"><b>Siguenos en Twitter</b></a>
                 </div>
                 <div class="row-footer">
-                  <img style="width: 36px;" src="../IMAGENES/icon/instagram.png">
+                    <img style="width: 36px;" src="IMAGES/icons/instagram.png">
                   <a href="#" id="footerlabel"><b>Siguenos en Instagram</b></a>
                 </div>
                 <div class="row-footer">
-                  <img style="width: 36px;" src="../IMAGENES/icon/google-plus.png">
+                    <img style="width: 36px;" src="IMAGES/icons/google-plus.png">
                   <a href="#" id="footerlabel"><b>Siguenos en Google Plus</b></a>
                 </div>
                 <div class="row-footer">
-                  <img style="width: 36px;" src="../IMAGENES/icon/pinterest.png">
+                    <img style="width: 36px;" src="IMAGES/icons/pinterest.png">
                   <a href="#" id="footerlabel"><b>Siguenos en Pinteres</b></a>
                 </div>
   

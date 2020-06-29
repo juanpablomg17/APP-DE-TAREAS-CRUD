@@ -33,11 +33,18 @@
                                style="color: white; padding-left: 25px; padding-right: 25px;">Inicio
                                 <span class="sr-only">(current)</span> </a>
                     </ul>
+                      
                     <ul class="nav navbar-nav navbar-nav-first">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="ControllerTareas"
-                               style="color: white; padding-left: 25px; padding-right: 25px;">Mis Experencias
-                                <span class="sr-only">(current)</span> </a>
+                        <li style="padding-right: 11px; padding-left: 0px;" class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false">
+                                Mis Experiencias
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="ControllerTareas">Lista de Experiencias</a>
+                                <a class="dropdown-item" href="AgregarTareas.jsp">Agregar Una Nueva Experiencia</a>
+                            </div>
+                        </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-nav-first">
                         <li class="nav-item active">

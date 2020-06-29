@@ -31,7 +31,7 @@ import java.util.Date;
  *
  * @author JUAN PABLO
  */
-public class ControllerLogin extends HttpServlet {
+public class ControllerUsuario extends HttpServlet {
 
      private UsuarioDAO userDAO;
     
@@ -125,7 +125,10 @@ public class ControllerLogin extends HttpServlet {
             r = userDAO.validarUsuario(user);
 
             if (r==1){
+                
+                request.getSession().setAttribute("nombre",nom_user);
                 request.getRequestDispatcher("inicioCuidador.jsp").forward(request, response);
+                
             }
             else{
                 request.getRequestDispatcher("index.jsp").forward(request, response);

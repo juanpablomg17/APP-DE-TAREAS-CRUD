@@ -19,7 +19,7 @@
     </servlet>
     <servlet>
         <servlet-name>ControllerLogin</servlet-name>
-        <servlet-class>Controller.ControllerLogin</servlet-class>
+        <servlet-class>Controller.ControllerUsuario</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>Controller</servlet-name>

@@ -71,6 +71,16 @@ public class UsuarioDAO {
         
         
     }
+    
+    public void agregarUsuario(Usuario user) throws SQLException{
+       
+         Connection miConexion = null;
+        PreparedStatement miStatement = null;
+        ResultSet miResultSet = null;
+        
+        
+        miConexion = origenDatos.getConnection();
+    }
 }
 
 
