@@ -53,8 +53,8 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("  <link rel=\"stylesheet\" href=\"CSS/index/index.css\"/>\n");
       out.write("  <link rel=\"stylesheet\" href=\"CSS/sepaFooter.css\"/>\n");
       out.write("  <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\"/>\n");
-      out.write("  \n");
-      out.write("  <title>SEPA</title>\n");
+      out.write("  <link href=\"CUIDADOR/inicioCuidador.jsp\">\n");
+      out.write("  <title>REGISTRO CUIDADOR</title>\n");
       out.write("</head>\n");
       out.write("\n");
       out.write("<body>\n");
@@ -110,6 +110,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("           \n");
       out.write("\n");
       out.write("            <form class=\"nav navbar-nav navbar-nav-first\" style=\"margin-right: 2%; margin-left: 15.5%;\" id=\"search\">\n");
+      out.write("                <input type=\"hidden\" name=\"accion\" value=\"ingresar\"/>\n");
       out.write("                <input class=\"form-control mr-sm-2\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">\n");
       out.write("                <button class=\"btn btn-success my-2 my-sm-0\" type=\"submit\">Search</button>\n");
       out.write("            </form>\n");
@@ -121,8 +122,8 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                  Registrarse\n");
       out.write("                </a>\n");
       out.write("                <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\n");
-      out.write("                  <a class=\"dropdown-item\" href=\"RegistroCuidador.html\">Cuidador</a>\n");
-      out.write("                  <a class=\"dropdown-item\" href=\"RegistroEspecialista.html\">Especialista</a>\n");
+      out.write("                    <a class=\"dropdown-item\" href=\"RegistroCuidador.jsp\">Cuidador</a>\n");
+      out.write("                  <a class=\"dropdown-item\" href=\"#\">Especialista</a>\n");
       out.write("    \n");
       out.write("    \n");
       out.write("                </div>\n");
@@ -257,7 +258,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("      <div class=\"col-md-3 col-sm-6\">\n");
       out.write("        <div class=\"container-equipo\">\n");
       out.write("          <div class=\"pic\">\n");
-      out.write("              <img src=\"IMAGES/index/niño6.jpg\" alt=\"\">\n");
+      out.write("              <img src=\"IMAGES/registroCuidador/niño6.jpg\" alt=\"\">\n");
       out.write("          </div>\n");
       out.write("          <div class=\"equipo-content\">\n");
       out.write("            <h3 class=\"tituloequipo\">Robert</h3>\n");

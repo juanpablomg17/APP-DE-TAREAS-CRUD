@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="CSS/index/index.css"/>
   <link rel="stylesheet" href="CSS/sepaFooter.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-  
+  <link href="CUIDADOR/inicioCuidador.jsp">
   <title>SEPA</title>
 </head>
 
@@ -71,6 +71,7 @@
            
 
             <form class="nav navbar-nav navbar-nav-first" style="margin-right: 2%; margin-left: 15.5%;" id="search">
+                <input type="hidden" name="accion" value="ingresar"/>
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
             </form>
@@ -82,8 +83,8 @@
                   Registrarse
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="RegistroCuidador.html">Cuidador</a>
-                  <a class="dropdown-item" href="RegistroEspecialista.html">Especialista</a>
+                    <a class="dropdown-item" href="RegistroCuidador.jsp">Cuidador</a>
+                  <a class="dropdown-item" href="#">Especialista</a>
     
     
                 </div>
@@ -218,7 +219,7 @@
       <div class="col-md-3 col-sm-6">
         <div class="container-equipo">
           <div class="pic">
-              <img src="IMAGES/index/niño6.jpg" alt="">
+              <img src="IMAGES/registroCuidador/niño6.jpg" alt="">
           </div>
           <div class="equipo-content">
             <h3 class="tituloequipo">Robert</h3>
