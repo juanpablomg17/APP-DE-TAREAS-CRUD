@@ -34,8 +34,8 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="nav navbar-nav navbar-nav-first">
                 <li class="nav-item active">
-                    <a class="nav-link" href="Inicio.html"
-                        style="color: white; padding-left: 25px; padding-right: 25px;">Home
+                    <a class="nav-link" href="#"
+                        style="color: white; padding-left: 25px; padding-right: 25px;">Inicio
                         <span class="sr-only">(current)</span> </a>
 
 
